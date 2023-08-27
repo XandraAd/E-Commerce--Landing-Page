@@ -33,9 +33,7 @@
                         <li><a href="#Shop">Shop</a></li>
                         <li><a href="#contact" class="btn">Contact</a></li>
                     </ul>
-                    <!--<div class="close_icon drawer-close-icon"  id="drawer-close-icon">
-                        <i data-feather="x" onclick="hideOverlay()"></i>
-                    </div>-->
+                   
                 </nav>
             </div>
             
@@ -45,7 +43,7 @@
             <div class="navbar-right" >
                 <i data-feather="user" ></i>
                 <i data-feather="shopping-cart"></i>
-                <i data-feather="menu" id="menu-icon" onclick="showOverlay()"></i>
+                <i data-feather="menu" id="menu-icon" ></i>
     
                 
             </div>
@@ -58,9 +56,12 @@
         <div class="description">
                 <h4>New Product 
                     Collection</h4>
-                            <a href="#shopNow" >
-                                Shop Now
-                             </a>
+                    
+                            <a href="#shopNow" style="font-family: 'Dosis', sans-serif";>
+                        Shop Now
+                     </a>
+                    
+                           
                         
                        
                         
@@ -82,19 +83,7 @@
     <script>
         feather.replace();
 
-        function showOverlay() {
-    document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlay").classList.add("slide-from-right") ="flex"
-
-
-
-
-    }
-
-    function HideOverLay () {
-      document.getElementById("overlay").style.display ="none"
-
-    }
+   
 
 
 </script>
