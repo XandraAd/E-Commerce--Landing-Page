@@ -11,6 +11,8 @@
 
 body {
   font-family: "Poppins", "Dosis", sans-serif;
+  
+
 }
 
 a {
@@ -23,54 +25,3 @@ ul li {
   list-style: none;
 }
 
-/*NAVBAR COMPONENT CSS*/
-
-.navbar {
-  position: absolute;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  z-index: 1000;
-}
-.navbar-right {
-  color: white;
-}
-.navbar ul li {
-  display: none;
-}
-
-/* Media Query for Mobile and Smaller Tablets*/
-@media screen and (min-width: 400px) and (max-width: 899px) {
-  .navbar {
-    /*flex-direction: row;*/
-    align-items: center;
-  }
-
-  .navbar-right {
-    display: block;
-  }
-}
-
-/* Media Query for  Some Tablets and Larger Screen */
-@media screen and (min-width: 900px) and (max-width: 2560px) {
-  .navbar {
-    /*flex-direction: row;*/
-    align-items: center;
-  }
-
-  .navbar ul li {
-    display: inline;
-    line-height: 80px;
-    margin: 2rem;
-    color: aliceblue;
-  }
-
-  .navbar-right i {
-    margin: 20px;
-  }
-
-  .navbar ul li a {
-    font-size: larger;
-  }
-}
